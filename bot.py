@@ -17,7 +17,7 @@ class TheBot:
         self.token = input_bot.token
 
     def execute(self):
-        bot = Bot(token=6946495707:AAGxjbhbUOz_3OSWmvS7POy7KKB-XGK5vnc)
+        bot = Bot(token='6946495707:AAGxjbhbUOz_3OSWmvS7POy7KKB-XGK5vnc')
         updater = Updater(bot=bot, use_context=True)
         dp = updater.dispatcher
         # Остальной код обработчиков команд и сообщений
