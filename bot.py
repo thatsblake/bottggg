@@ -6,7 +6,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, filters
 from escupidobot.controller import BotController
 from escupidobot.model import InputBot
 
-HELP_TEXT = "bot.py -t token [-d 14]"
+HELP_TEXT = "bot.py -t 6946495707:AAGxjbhbUOz_3OSWmvS7POy7KKB-XGK5vnc [-d 14]"
 
 def read_configuration(argv):
     # Ваш код для чтения конфигурации
@@ -17,7 +17,7 @@ class TheBot:
         self.token = input_bot.token
 
     def execute(self):
-        bot = Bot(token=self.token)
+        bot = Bot(token=6946495707:AAGxjbhbUOz_3OSWmvS7POy7KKB-XGK5vnc)
         updater = Updater(bot=bot, use_context=True)
         dp = updater.dispatcher
         # Остальной код обработчиков команд и сообщений
