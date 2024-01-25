@@ -2,7 +2,7 @@ import getopt
 import sys
 
 from telegram import Bot
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram.ext import Updater, CommandHandler, MessageHandler, filters
 from escupidobot.controller import BotController
 from escupidobot.model import InputBot
 
